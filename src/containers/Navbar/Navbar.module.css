@@ -11,8 +11,5 @@
 .img{
     width: 15%;
     min-width: 70px;
-}
-
-.imgContainer{
-    padding: 0 32px;
+    cursor: pointer;
 }
