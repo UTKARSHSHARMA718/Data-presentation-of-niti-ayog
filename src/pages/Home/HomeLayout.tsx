@@ -1,14 +1,16 @@
 import React from "react";
 
 import Navbar from "../../containers/Navbar/Navbar";
-import { HomeLayoutProps } from "./HomeLayout.types";
+import { Outlet } from "react-router-dom";
 import styles from "./HomeLayout.module.css";
 
-const HomeLayout: React.FC<HomeLayoutProps> = ({ children }) => {
+const HomeLayout: React.FC = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      {children}
+      <div className={styles.content}>
+        <Outlet />
+      </div>
     </div>
   );
 };
