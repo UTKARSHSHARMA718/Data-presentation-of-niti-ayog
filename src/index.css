@@ -24,3 +24,11 @@ code {
   min-height: 100vh;
   display: flex;
 }
+
+.mantine-ScrollArea-viewport{
+  overflow-y: visible !important;
+}
+
+.mantine-Table-table{
+  width: 100%;
+}

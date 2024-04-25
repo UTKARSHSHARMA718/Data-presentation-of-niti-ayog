@@ -4,7 +4,11 @@ export const classes = {
     padding: "4px 8px",
   },
   tableHeading: {
-    maxWidth: "200px",
+    width: "fit-content",
+    maxWidth: "400px",
     padding: "4px 8px",
+  },
+  tableBody: {
+    borderCollapse: "collapse",
   },
 };
