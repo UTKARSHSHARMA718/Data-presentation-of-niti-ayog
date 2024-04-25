@@ -18,7 +18,7 @@
 ### Cloning the repository
 
 ```shell
-https://github.com/UTKARSHSHARMA718/Hospital-near-me.git
+https://github.com/UTKARSHSHARMA718/Data-presentation-of-niti-ayog.git
 ```
 
 ### Install packages
