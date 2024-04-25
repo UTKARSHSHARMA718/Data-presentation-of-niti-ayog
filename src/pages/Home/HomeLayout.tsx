@@ -1,7 +1,7 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 import Navbar from "../../containers/Navbar/Navbar";
-import { Outlet } from "react-router-dom";
 import styles from "./HomeLayout.module.css";
 
 const HomeLayout: React.FC = () => {

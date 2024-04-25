@@ -9,7 +9,7 @@ export const cropMinMaxtableHeaders = [
   "Crop with Minimum Production in that Year",
 ];
 
-export const cropMinMaxDataKeys = ["minCropName", "maxCropName", "key"];
+export const cropMinMaxDataKeys = ["key", "maxCropName", "minCropName"];
 
 export const cropAvgYieldAndCultivationTableHeaders = [
   "Crop",
@@ -25,15 +25,15 @@ export const cropAvgYieldAndCultivationDataKeys = [
 
 export const ABOUT_SECTION_POINTS = [
   {
-    text: "This web app helps user to find the data about the different crop from year 1950 to 2020",
+    text: "This web app helps user to find the data about the different crop from year 1950 to 2020.",
     icon: GiFarmer,
   },
   {
-    text: "User can see the data of maximum and minimum crop production per year",
+    text: "User can see the data of maximum and minimum crop production per year.",
     icon: GiFarmTractor,
   },
   {
-    text: "User can see the data of average yeild and cultivation per crop",
+    text: "User can see the data of average yeild and cultivation per crop.",
     icon: GiSugarCane,
   },
   {
