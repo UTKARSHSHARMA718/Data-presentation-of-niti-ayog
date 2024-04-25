@@ -30,8 +30,6 @@ const Home = () => {
     []
   );
 
-  console.log({ avgCropYieldAndCultivation });
-
   const avgCropYieldAndCultivationObjArray = useMemo(
     () => getArrayOfObjectsFromMap(avgCropYieldAndCultivation),
     []

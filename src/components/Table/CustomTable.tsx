@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Table } from "@mantine/core";
+import { Table, ScrollArea } from "@mantine/core";
 import { TableProps } from "./CustomTable.types";
 import { classes } from "./CustomTable.styles";
 
@@ -23,8 +23,9 @@ const CustomTable: React.FC<TableProps> = ({
   ));
 
   return (
-    <Table.ScrollContainer minWidth={500}>
-      <Table borderColor="red" border={1}>
+    <Table.ScrollContainer minWidth={600} type="native">
+      {/* @ts-ignore */}
+      <Table border={1} style={classes?.tableBody}>
         <Table.Thead>
           <Table.Tr>
             {tableHeaders?.map((header, index) => {
