@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 32px;
+    background-color: bisque;
+}
+
+.img{
+    width: 15%;
+    min-width: 70px;
+}
+
+.imgContainer{
+    padding: 0 32px;
+}
