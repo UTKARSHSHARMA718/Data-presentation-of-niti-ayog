@@ -7,7 +7,7 @@
 
 ### Stack/Technologies:
 
-- React JS, Typescript, Context API, React Icons, Mantine UI.
+- React JS, Typescript, Context API, React Icons, Yarn, Mantine UI.
 
 ### Features:
 
