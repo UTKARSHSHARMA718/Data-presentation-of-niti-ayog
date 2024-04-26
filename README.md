@@ -38,3 +38,9 @@ yarn add
 yarn start
 ```
 
+### Build the app
+
+```shell
+yarn run build
+```
+
